@@ -1,0 +1,49 @@
+{
+  "name": "nx-server",
+  "version": "1.0.0",
+  "description": "NX SSO platform server",
+  "main": "/src/index.ts",
+  "scripts": {
+    "dev": "tsc && nodemon 'dist/index.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nxctophile/nx-server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "server",
+    "mongodb",
+    "typescript"
+  ],
+  "author": "nxctophile",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nxctophile/nx-server/issues"
+  },
+  "homepage": "https://github.com/nxctophile/nx-server#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/mailgun-js": "^0.22.18",
+    "@types/node": "^20.14.12",
+    "@types/nodemailer": "^6.4.15",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
