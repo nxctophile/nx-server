@@ -4,7 +4,9 @@
   "description": "NX SSO platform server",
   "main": "/src/index.ts",
   "scripts": {
-    "dev": "tsc && nodemon 'dist/index.js'"
+    "start": "node 'dist/index.js'",
+    "build": "tsc",
+    "dev": "tsc && node 'dist/index.js'"
   },
   "repository": {
     "type": "git",
